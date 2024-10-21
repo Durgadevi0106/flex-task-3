@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    border: 2px solid;
+    font-size: 2rem;
+    display: flex;
+}
+.flex-child1{
+    background-color: deeppink;
+    flex-shrink: 0;
+}
+.flex-child2{
+    background-color: darkcyan;
+    flex-shrink: 3;
+}
+.flex-child3{
+    background-color: palevioletred;
+    flex-shrink: 2;
+}
+.flex-child4{
+    background-color:blueviolet;
+    flex-shrink: 5;
+}
